@@ -1,0 +1,43 @@
+{
+    "crossland":{
+        "crossland":[
+            {
+                "campaign": "crossland",
+                "reports":[
+                    {
+                        "code": "contacto",
+                        "properties": {
+                            "dbType": {
+                                "Contact ID": "str",
+                                "Phone Number": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "primary_key": "contact_id"
+                    }
+                ]
+            },
+            {
+                "campaign": "crossland",
+                "reports":[
+                    {
+                        "code": "mensajes",
+                        "properties": {
+                            "dbType": {
+                                "Date & Time": "str",
+                                "Sender ID": "str",
+                                "Contact ID": "str",
+                                "Message ID": "str",
+                                "Channel ID": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "primary_key": null
+                    }
+                ]
+            }
+        ]
+    }
+}

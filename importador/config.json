@@ -1,0 +1,7 @@
+{
+    "LOAD_PATH" : "C:\\Users\\Usuario\\Documents\\terceriza\\Robot\\CROSSLAND_local\\carga\\",
+    "DB_HOST": "localhost",
+    "DB_NAME" : "",
+    "DB_USER" : "root",
+    "DB_PASSWORD" : ""
+}
